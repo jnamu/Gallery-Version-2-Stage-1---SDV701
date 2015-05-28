@@ -1,0 +1,85 @@
+<SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<SOAP-ENV:Body>
+<a1:clsArtistList id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GalleryVersion2/GalleryVersion2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<SortedList_x002B_keys href="#ref-3"/>
+<SortedList_x002B_values href="#ref-4"/>
+<SortedList_x002B__size>1</SortedList_x002B__size>
+<SortedList_x002B_version>1</SortedList_x002B_version>
+<SortedList_x002B_comparer href="#ref-5"/>
+<SortedList_x002B_keyList href="#ref-6"/>
+<SortedList_x002B_valueList href="#ref-7"/>
+</a1:clsArtistList>
+<SOAP-ENC:Array id="ref-3" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item id="ref-8" xsi:type="SOAP-ENC:string">beka</item>
+</SOAP-ENC:Array>
+<SOAP-ENC:Array id="ref-4" SOAP-ENC:arrayType="xsd:anyType[16]">
+<item href="#ref-9"/>
+</SOAP-ENC:Array>
+<a3:Comparer id="ref-5" xmlns:a3="http://schemas.microsoft.com/clr/ns/System.Collections">
+<CompareInfo href="#ref-10"/>
+</a3:Comparer>
+<a3:SortedList_x002B_KeyList id="ref-6" xmlns:a3="http://schemas.microsoft.com/clr/ns/System.Collections">
+<sortedList href="#ref-1"/>
+</a3:SortedList_x002B_KeyList>
+<a3:SortedList_x002B_ValueList id="ref-7" xmlns:a3="http://schemas.microsoft.com/clr/ns/System.Collections">
+<sortedList href="#ref-1"/>
+</a3:SortedList_x002B_ValueList>
+<a1:clsArtist id="ref-9" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GalleryVersion2/GalleryVersion2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<name id="ref-11">beka</name>
+<speciality id="ref-12">painter</speciality>
+<phone id="ref-13">5454545</phone>
+<_TotalValue>1110</_TotalValue>
+<_WorksList href="#ref-14"/>
+<_ArtistList href="#ref-1"/>
+<sortOrder>0</sortOrder>
+</a1:clsArtist>
+<a4:CompareInfo id="ref-10" xmlns:a4="http://schemas.microsoft.com/clr/ns/System.Globalization">
+<m_name id="ref-15">en-NZ</m_name>
+<win32LCID>0</win32LCID>
+<culture>5129</culture>
+<m_SortVersion xsi:null="1"/>
+</a4:CompareInfo>
+<a1:clsWorksList id="ref-14" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GalleryVersion2/GalleryVersion2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<ArrayList_x002B__items href="#ref-16"/>
+<ArrayList_x002B__size>3</ArrayList_x002B__size>
+<ArrayList_x002B__version>12</ArrayList_x002B__version>
+</a1:clsWorksList>
+<SOAP-ENC:Array id="ref-16" SOAP-ENC:arrayType="xsd:anyType[4]">
+<item href="#ref-17"/>
+<item href="#ref-18"/>
+<item href="#ref-19"/>
+</SOAP-ENC:Array>
+<a1:clsSculpture id="ref-17" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GalleryVersion2/GalleryVersion2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Weight>500</_Weight>
+<_Material id="ref-20">wood</_Material>
+<_Name id="ref-21">bye</_Name>
+<_Date>2015-03-08T00:00:00.0000000+13:00</_Date>
+<_Value>1000</_Value>
+<clsWork_x002B__Name href="#ref-21"/>
+<clsWork_x002B__Date>2015-03-08T00:00:00.0000000+13:00</clsWork_x002B__Date>
+<clsWork_x002B__Value>1000</clsWork_x002B__Value>
+</a1:clsSculpture>
+<a1:clsPainting id="ref-18" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GalleryVersion2/GalleryVersion2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Width>22</_Width>
+<_Height>11</_Height>
+<_Type id="ref-22">abstract</_Type>
+<_Name id="ref-23">hi</_Name>
+<_Date>2015-03-09T00:00:00.0000000+13:00</_Date>
+<_Value>50</_Value>
+<clsWork_x002B__Name href="#ref-23"/>
+<clsWork_x002B__Date>2015-03-09T00:00:00.0000000+13:00</clsWork_x002B__Date>
+<clsWork_x002B__Value>50</clsWork_x002B__Value>
+</a1:clsPainting>
+<a1:clsPhotograph id="ref-19" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/GalleryVersion2/GalleryVersion2%2C%20Version%3D1.0.0.0%2C%20Culture%3Dneutral%2C%20PublicKeyToken%3Dnull">
+<_Width>50</_Width>
+<_Height>50</_Height>
+<_Type id="ref-24">canvas</_Type>
+<_Name id="ref-25">meow</_Name>
+<_Date>2015-03-07T00:00:00.0000000+13:00</_Date>
+<_Value>60</_Value>
+<clsWork_x002B__Name href="#ref-25"/>
+<clsWork_x002B__Date>2015-03-07T00:00:00.0000000+13:00</clsWork_x002B__Date>
+<clsWork_x002B__Value>60</clsWork_x002B__Value>
+</a1:clsPhotograph>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
